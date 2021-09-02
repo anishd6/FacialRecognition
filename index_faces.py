@@ -2,16 +2,16 @@ import boto3
 
 s3_client = boto3.client(
     's3',
-    aws_access_key_id='AKIAXS2L6FB6WR2ADD63',
-    aws_secret_access_key='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',
+    aws_access_key_id='Secret',
+    aws_secret_access_key='Secret',
 
 )
 
 collectionId='mycollection' #collection name
 
 rek_client=boto3.client('rekognition',
-                            aws_access_key_id='AKIAXS2L6FB6WR2ADD63',
-                            aws_secret_access_key='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',)
+                            aws_access_key_id='Secret',
+                            aws_secret_access_key='Secret',)
 
 
 bucket = 'myindexfaces' #S3 bucket name
